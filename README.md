@@ -2,23 +2,34 @@
 
 基于AI的视频修复工具
 该工具由一个三层卷积的和全连接层组成的判别模型和RIFE补帧模型组成，由判别模型鉴别视频帧并RIFE进行修复
-目前已经通过训练，在200次左右达到最好效果，300批次后准确率开始下降
 
-- 准确率展示 （测试样本）
-
-![准确率](https://github.com/jinwuZhu/VideoRepair/blob/3b05e2530ee35ec7de7ea32bce3664fb8deaadc2/test/accuracy.png)
-
-- 损失值展示（训练样本）
-
-![损失](https://github.com/jinwuZhu/VideoRepair/blob/3b05e2530ee35ec7de7ea32bce3664fb8deaadc2/test/loss.png)
 
 ### 支持的功能
 - 花屏帧修复补全
 
 ### 效果展示
-- 下面是两个图片，展示了修复前后的效果
-![修复前](https://github.com/jinwuZhu/VideoRepair/blob/00d7c18d634ed9781b7f359cafefaf73e0443d7e/view_bad.gif)
-![修复后](https://github.com/jinwuZhu/VideoRepair/blob/bb2c3d517d0b758c395eae9d855b0fe32c440c40/view_repair.gif)
+目前已经通过训练，在200次左右达到最好效果，300批次后准确率开始下降
+<table>
+  <tr>
+    <th>准确率</th>
+    <th>损失值</th>
+  </tr>
+  <tr>
+    <td><img alt="accuracy" src="https://github.com/jinwuZhu/VideoRepair/assets/90186447/811f8774-af4f-4caa-84ee-f87bbbd3706f"></td>
+    <td><img alt="loss" src="https://github.com/jinwuZhu/VideoRepair/assets/90186447/09e98a7d-a6b1-401f-87f2-7fd2064f233c"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>修复前</th>
+    <th>修复后</th>
+  </tr>
+  <tr>
+    <td><video id="bad" src="https://github.com/jinwuZhu/VideoRepair/assets/90186447/7a1e33ae-96d8-49d8-af81-67b8a599165c" width="250"></video></td>
+    <td><video id="repair" src="https://github.com/jinwuZhu/VideoRepair/assets/90186447/8376a585-1246-4f61-8708-efab355822eb" width="250"></video></td>
+  </tr>
+</table>
 
 ### 如何使用
 - 工程提供了一个命令行工具，可以直接执行命令
