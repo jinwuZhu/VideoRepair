@@ -7,10 +7,9 @@
 - 花屏帧修复补全
 
 ### 效果展示
-修复前：
-![修复前](https://github.com/jinwuZhu/VideoRepair/view_bad.gif)
-修复后：
-[![修复后](https://github.com/jinwuZhu/VideoRepair/view_repair.gif)](https://github.com/jinwuZhu/VideoRepair/blob/bb2c3d517d0b758c395eae9d855b0fe32c440c40/view_repair.gif)
+
+![修复前](https://github.com/jinwuZhu/VideoRepair/blob/00d7c18d634ed9781b7f359cafefaf73e0443d7e/view_bad.gif)
+[![修复后](https://github.com/jinwuZhu/VideoRepair/blob/bb2c3d517d0b758c395eae9d855b0fe32c440c40/view_repair.gif)
 
 ### 如何使用
 - 工程提供了一个命令行工具，可以直接执行命令
