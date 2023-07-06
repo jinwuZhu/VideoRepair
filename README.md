@@ -2,6 +2,13 @@
 
 基于AI的视频修复工具
 该工具由一个三层卷积的和全连接层组成的判别模型和RIFE补帧模型组成，由判别模型鉴别视频帧并RIFE进行修复
+目前已经通过训练，在200次左右达到最好效果，300批次后准确率开始下降
+
+- 准确率展示 （测试样本）
+![准确率](https://github.com/jinwuZhu/VideoRepair/blob/3b05e2530ee35ec7de7ea32bce3664fb8deaadc2/test/accuracy.png)
+
+- 损失值展示（训练样本）
+![损失](https://github.com/jinwuZhu/VideoRepair/blob/3b05e2530ee35ec7de7ea32bce3664fb8deaadc2/test/loss.png)
 
 ### 支持的功能
 - 花屏帧修复补全
