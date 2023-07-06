@@ -5,9 +5,11 @@
 目前已经通过训练，在200次左右达到最好效果，300批次后准确率开始下降
 
 - 准确率展示 （测试样本）
+
 ![准确率](https://github.com/jinwuZhu/VideoRepair/blob/3b05e2530ee35ec7de7ea32bce3664fb8deaadc2/test/accuracy.png)
 
 - 损失值展示（训练样本）
+
 ![损失](https://github.com/jinwuZhu/VideoRepair/blob/3b05e2530ee35ec7de7ea32bce3664fb8deaadc2/test/loss.png)
 
 ### 支持的功能
