@@ -8,9 +8,9 @@
 
 ### 效果展示
 修复前：
-![修复前](view_bad.gif "修复前")
+![修复前](https://github.com/jinwuZhu/VideoRepair/view_bad.gif)
 修复后：
-![修复后](view_bad.gif "修复后")
+![修复后](https://github.com/jinwuZhu/VideoRepair/view_repair.gif)
 
 ### 如何使用
 - 工程提供了一个命令行工具，可以直接执行命令
